@@ -1,0 +1,678 @@
+@import 'fonts.css';
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Roboto-Regular';
+}
+
+
+header .navbar-brand span {
+    font-size: 24px;
+    color: #6bc2f1;
+}
+
+header {
+    background: #e3edf4;
+}
+
+header .navbar-brand {
+    text-transform: uppercase;
+    font-size: 24px;
+    margin-right: 60px;
+    padding-top: 20px;
+    padding-bottom: 16px;
+}
+
+header .header_nav-link {
+    font-size: 14px;
+    color: #000;
+    font-family: var(--Roboto-Regular);
+    text-decoration: none;
+    margin-left: 20.50px;
+    transition: 0.5s;
+}
+
+header .header_nav-link:hover {
+    color: #219fe2;
+}
+
+
+header .collapse button {
+    padding: 19px 41px 17px 34px;
+    background: #6bc2f1;
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+    border: none;
+    transition: 0.5s;
+
+}
+
+header .collapse button:hover {
+    background: #219fe2;
+}
+
+header .header-text {
+    background: url(../img/headerjpg.jpg) no-repeat center center / cover;
+    padding-bottom: 146px;
+
+    padding-top: 294px;
+}
+
+
+
+
+header .header-text h1 span {
+    font-size: 70px;
+    font-weight: 900;
+}
+
+
+header .header-text .h1a {
+    font-size: 70px;
+    color: #ffffff;
+
+}
+
+header .header-text h1 {
+    font-size: 70px;
+
+}
+
+
+header .header-text .top {
+    font-size: 26px;
+    color: #ffffff;
+    margin-top: 30px;
+}
+
+header .header-text p {
+    font-size: 16px;
+    color: #fff;
+    margin-top: 66px;
+}
+
+header .header-text button {
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #000;
+    background: #fff;
+    padding: 20px 58px 18px 47px;
+    margin-top: 65px;
+    border: none;
+    transition: 0.5s;
+}
+
+header .header-text button:hover {
+    background: #1aa7f3;
+}
+
+/* header end */
+/* ****************************************** */
+/* section start */
+section {
+    padding: 120px 0 120px 0;
+}
+section .block-right img{
+    width: 100%;
+}
+section button {
+    padding: 19px 59px 17px 47px;
+    background: #219fe2;
+    color: #fff;
+    border: none;
+    transition: 0.5s;
+    cursor: pointer;
+    margin-top: 72px;
+}
+
+section button:hover {
+    background: #00a6ff;
+}
+
+section h1 {
+    font-size: 36px;
+    cursor: pointer;
+}
+
+section p {
+    font-size: 18px;
+    color: #1b1b1b;
+    margin-top: 36px;
+    cursor: pointer;
+}
+
+section .welcome {
+    font-size: 19px;
+    color: #6bc2f1;
+}
+
+/* section end */
+/* ********************************* */
+/* main start */
+
+main .box {
+    position: relative;
+    height: 100%;
+}
+main .gero{
+    background: #6bc2f1;
+    padding-bottom: 161px;
+}
+main .box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+main a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    text-transform: uppercase;
+    font-size: 26px;
+    width: 100%;
+    height: 100%;
+    background: #0499e983;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 1s;
+    text-decoration: none;
+}
+
+
+main .box:hover a {
+    opacity: 1;
+    color: #fff;
+}
+
+
+main .col-lg-6 {
+    text-align: center;
+    padding-top: 10%;
+}
+
+main .super {
+    font-size: 19px;
+    color: #ffffff;
+}
+
+main h2 {
+    font-size: 36px;
+    color: #fff;
+}
+
+main p {
+    font-size: 18px;
+    color: #ffffff;
+    margin-top: 35px;
+}
+/* main end */
+/* ******************************** */
+/* icon-block start */
+
+.icon-block a i{
+    font-size: 70px;
+    margin-top: 80px;
+    color:#6bc2f1 ;
+    transition: 0.6s;
+}
+
+.icon-block a i:hover{
+    color: #0069a1;
+}
+.icon-block{
+    text-align: center;
+    padding: 122px 0 128px 0;
+}
+.icon-block h3{
+margin-top: 41px;
+font-size: 18px;
+color: #000;
+font-weight: 600;
+margin-bottom: 20px;
+}
+
+.icon-block p{
+    font-size: 16px;
+    color: #000;
+    text-align: center;
+    margin-top: 5px;
+
+}
+
+.icon-block .class{
+    margin-top: -15px;
+}
+
+/* .icon-block end */
+/* ********************************* */
+/* foto-block start */
+.foto-block{
+    background: #f1f1f1;
+    padding: 61px 0;
+}
+
+.foto-block img{
+    width: 100%;
+}
+.foto-block .photo{
+    margin-top: 26px;
+}
+/* foto-block end */
+/* **************************************** */
+/* footer start */
+footer{
+    background: #072135;
+}
+
+footer p {
+    color: #fff;
+    font-size: 14px;
+}
+
+
+footer h1{
+    font-size: 18px;
+    color: #fff;
+}
+
+footer .footer-end{
+    padding: 133px 0 125px 0;
+}
+
+
+footer .pro{
+    margin-top: 45px;
+
+}
+
+@media (max-width:1199px) {
+    header .header-text h1 {
+        font-size: 55px;
+    }
+
+    header .header-text h1 span {
+        font-size: 55px;
+        font-weight: 900;
+    }
+}
+
+@media (max-width:991px) {
+    header .header-text button {
+        padding: 18px 40px 20px 40px;
+    }
+
+    .test-col-md{
+        order: 1;
+    }
+    .icon-block {
+        text-align: center;
+        padding: 0px 0 0 0;
+    }
+}
+
+
+@media (max-width:767px) {
+    section {
+        padding: 0px 0 41px 0;
+    }
+    section .block-right img {
+        width: 100%;
+        margin-top: 40px;
+    }
+}
+
+@media (max-width:765px) {
+    main .col-lg-6 {
+        padding-top: 3%;
+    }
+    main .gero {
+        padding-bottom: 74px;
+    }
+}
+@media (max-width:724px) {
+    section h1 {
+        font-size: 28px;
+    }
+    section p {
+        font-size: 16px;
+    }
+    section button {
+        margin-top: 24px;
+    }
+}
+
+@media (max-width:629px) {
+    header .header-text h1 {
+        font-size: 47px;
+    }
+
+    header .header-text h1 span {
+        font-size: 47px;
+    }
+
+    header .header-text .top {
+        font-size: 23px;
+        margin-top: 22px;
+    }
+
+    header .header-text p {
+        font-size: 16px;
+        color: #fff;
+        margin-top: 36px;
+    }
+
+    button {
+        padding: 14px 28px 14px 32px;
+    }
+}
+
+@media (max-width:575px) {
+    header .header-text .top {
+        margin-top: 52px;
+        font-size: 20px;
+    }
+
+    header .header-text p {
+        font-size: 20px;
+        color: #fff;
+        margin-top: 42px;
+    }
+}
+
+@media (max-width:502px) {
+    header .header-text h1 {
+        font-size: 46px;
+    }
+
+    header .header-text h1 span {
+        font-size: 46px;
+    }
+
+
+}
+
+
+@media (max-width:492px) {
+    header .header-text h1 {
+        font-size: 45px;
+    }
+
+    header .header-text button {
+        padding: 16px 33px 16px 34px;
+    }
+}
+
+@media (max-width:482px) {
+    header .header-text h1 {
+        font-size: 42px;
+    }
+}
+
+@media (max-width:475px) {
+    section h1 {
+        font-size: 32px;
+    }
+    section p {
+        font-size: 17px;
+    }
+}
+@media (max-width:452px) {
+    header .header-text h1 {
+        font-size: 40px;
+    }
+
+    header .header-text p {
+        font-size: 18px;
+    }
+}
+
+@media (max-width:432px) {
+    header .header-text p {
+        font-size: 18px;
+    }
+
+    header .header-text h1 {
+        font-size: 37px;
+    }
+
+    header .header-text h1 span {
+        font-size: 45px;
+    }
+
+    button {
+        margin-top: 27px;
+    }
+    main h2 {
+        font-size: 26px;
+    }
+    main p {
+        font-size: 15px;
+        margin-top: 23px;
+    }
+}
+@media (max-width:431px){
+    main .gero {
+        padding-bottom: 31px;
+    }
+    main h2 {
+        font-size: 33px;
+    }
+    main p {
+        font-size: 17px;
+    }
+}
+
+@media (max-width:420px) {
+    header .header-text p {
+        font-size: 16px;
+    }
+
+    header .header-text .top {
+        font-size: 19px;
+    }
+
+}
+
+@media (max-width:402px) {
+    header .header-text h1 {
+        font-size: 35px;
+    }
+
+    h1 span {
+        font-size: 42px;
+    }
+
+    header .header-text button {
+        padding: 10px 17px 10px 18px;
+    }
+
+    header .header-text .top {
+        display: none;
+
+    }
+
+    header .header-text p {
+        margin-top: 42px;
+    }
+
+    header .header-text {
+        padding-top: 198px;
+    }
+
+    header .header-text button {
+        margin-top: 38px;
+    }
+
+
+}
+
+@media (max-width:382px) {
+    header .header-text h1 {
+        font-size: 33px;
+    }
+}
+@media (max-width:378px) {
+    section h1 {
+        font-size: 23px;
+    }
+    section p {
+        font-size: 14px;
+    }
+    section button {
+        padding: 19px 21px 17px 23px;
+    }
+}
+@media (max-width:374px) {
+    section h1 {
+        font-size: 25px;
+    }
+    section button {
+        padding: 19px 36px 17px 32px;
+    }
+    section p {
+        font-size: 15px;
+    }
+}
+
+@media (max-width:362px) {
+    header .header-text h1 {
+        font-size: 32px;
+    }
+}
+
+@media (max-width:352px) {
+    header .header-text h1 {
+        font-size: 31px;
+    }
+
+    header .header-text h1 span {
+        font-size: 41px;
+    }
+    main h2 {
+        font-size: 31px;
+    }
+    main p {
+        font-size: 15px;
+        margin-top: 23px;
+    }
+}
+
+@media (max-width:342px) {
+    header .header-text h1 {
+        font-size: 30px;
+    }
+}
+
+
+@media (max-width:332px) {
+    
+    header .header-text h1 {
+        font-size: 28px;
+    }
+    
+    
+
+    header .header-text p {
+        font-size: 17px;
+    }
+
+    header .header-text p {
+        margin-top: 34px;
+    }
+}
+
+@media (max-width:322px) {
+    header .header-text h1 {
+        font-size: 28px;
+    }
+
+    header .header-text button {
+        padding: 6px 9px 6px 10px;
+    }
+}
+
+
+@media (max-width:312px) {
+    section h1 {
+        font-size: 21px;
+    }
+    section p {
+        font-size: 13px;
+    }
+    header .header-text h1 {
+        font-size: 27px;
+    }
+    header .header-text p {
+        margin-top: 30px;
+    }
+    header .header-text p {
+        font-size: 16px;
+    }
+}
+@media (max-width:305px) {
+    header .header-text h1 {
+        font-size: 26px;
+    }
+    header .header-text h1 span {
+        font-size: 38px;
+    }
+}
+@media (max-width:292px){
+    header .header-text h1 {
+        font-size: 25px;
+    }
+    
+    header .header-text p {
+        font-size: 15px;
+    }
+}
+
+@media (max-width:287px){
+    section h1 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width:284px) {
+    header .header-text h1 {
+        font-size: 23px;
+    }
+}
+@media (max-width:261px) {
+    section h1 {
+        font-size: 18px;
+    }
+}
+
+@media (max-width:249px) {
+    section h1{
+        font-size: 16px;
+    }
+    section p {
+        font-size: 12px;
+    margin-top: 0;
+    }
+}
+@media (max-width:221px) {
+    section h1 {
+        font-size: 15px;
+    }
+section p{
+    font-size: 11px;
+}
+section button {
+    margin-top: 5px;
+}
+section button {
+    padding: 11px 12px 9px 11px;
+}
+}
